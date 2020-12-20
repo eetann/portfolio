@@ -1,8 +1,24 @@
-# What is this?
-eetannのポートフォーリオです。
+# portfolio
 
-## Author
-[@eetann092](https://twitter.com/eetann092)  
+## Project setup
+```
+npm install
+```
 
-<!-- ## License                           -->  
-<!-- [MIT](http://eetann.mit-license.org) -->  
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
