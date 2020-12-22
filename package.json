@@ -14,9 +14,12 @@
   "dependencies": {
     "autoprefixer": "^10.1.0",
     "core-js": "^3.8.1",
+    "js-yaml": "^3.14.1",
+    "json-loader": "^0.5.7",
     "postcss": "^8.2.1",
     "tailwindcss": "^2.0.1",
-    "vue": "^3.0.4"
+    "vue": "^3.0.4",
+    "yaml-loader": "^0.6.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",

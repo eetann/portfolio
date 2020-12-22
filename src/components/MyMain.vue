@@ -44,8 +44,8 @@
 </template>
 
 <script>
-  // vueファイルでは、自動でファイル名がname属性になる
-  export default {
-    name: 'MyMain'
-  }
+// vueファイルでは、自動でファイル名がname属性になる
+export default {
+  name: 'MyMain'
+}
 </script>

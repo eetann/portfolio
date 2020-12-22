@@ -1,0 +1,19 @@
+- name: Mr.Sagasu
+  description: ブックマークのみをアドレスバーで適当に検索できるChrome拡張機能
+  install: https://chrome.google.com/webstore/detail/mrsagasu/kkendaacffjgfnjaolejgaopcoakacpb
+  articles:
+  - https://zenn.dev/eetann/articles/mrsagasu-introduction
+  - https://note.com/hideharu092/n/nf389a3d66d83
+  tags:
+  - Chrome拡張機能
+  - JavaScript
+- name: Mr.Jimaku
+  description: 自分の字幕ファイルをYouTubeで表示するChrome拡張機能
+  install: https://chrome.google.com/webstore/detail/mrjimaku/ffadhemlfiofmghlenfnaemclojffkpd
+  articles:
+  - https://note.com/eetann/n/nb9c7a0602c87
+  tags:
+  - Chrome拡張機能
+  - JavaScript
+  - HTML
+  - CSS
