@@ -1,19 +1,19 @@
 <template>
-  <MyMain></MyMain>
+  <MyHeader></MyHeader>
   <MyWorks></MyWorks>
 </template>
 
 <script>
-import MyMain from './components/MyMain.vue'
-import MyWorks from './components/MyWorks.vue'
+import MyHeader from "./components/MyHeader.vue";
+import MyWorks from "./components/MyWorks.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    MyMain,
-    MyWorks
-  }
-}
+    MyHeader,
+    MyWorks,
+  },
+};
 </script>
 
 <style src="./assets/tailwind.css"></style>
