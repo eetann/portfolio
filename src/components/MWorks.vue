@@ -12,7 +12,7 @@
       <div class="flex flex-wrap">
         <div
           v-for="work in works"
-          v-bind:key="work.added_date"
+          v-bind:key="work.release_date"
           class="xl:w-1/3 md:w-1/2 p-4"
         >
           <div
@@ -20,10 +20,8 @@
             v-on:click="openModal(work)"
           >
             <img
-              class="object-cover object-center w-full h-40 mb-6 rounded"
+              class="object-contain object-center w-full h-40 mb-6 rounded"
               v-bind:src="require('@/assets/' + work.thumbnail).default"
-              width="720"
-              height="400"
             />
             <h2 class="text-lg font-medium text-gray-900 title-font">
               {{ work.name }}
@@ -44,7 +42,7 @@
             </p>
           </div>
           <MModal
-            v-if="showModal == work.added_date"
+            v-if="showModal == work.release_date"
             v-bind:work="work"
             v-on:close="closeModal"
           ></MModal>
@@ -63,7 +61,7 @@ export default {
   },
   methods: {
     openModal(work) {
-      this.showModal = work.added_date;
+      this.showModal = work.release_date;
     },
     closeModal() {
       this.showModal = "";

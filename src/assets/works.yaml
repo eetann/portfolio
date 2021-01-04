@@ -1,21 +1,28 @@
 - name: Mr.Sagasu
-  added_date: 2020/12/28-11:34
+  release_date: 2020/08/12-00:00
   description: ブックマークのみをアドレスバーで適当に検索できるChrome拡張機能
-  install: https://chrome.google.com/webstore/detail/mrsagasu/kkendaacffjgfnjaolejgaopcoakacpb
-  articles:
-  - https://zenn.dev/eetann/articles/mrsagasu-introduction
-  - https://note.com/hideharu092/n/nf389a3d66d83
+  here: https://chrome.google.com/webstore/detail/mrsagasu/kkendaacffjgfnjaolejgaopcoakacpb
+  links:
+    - title: github.com/eetann/mrsagasu
+      url: https://github.com/eetann/mrsagasu
+    - title: 使い方(Zennでの掲載)
+      url: https://zenn.dev/eetann/articles/mrsagasu-introduction
+    - title: 使い方(noteでの掲載)
+      url: https://note.com/hideharu092/n/nf389a3d66d83
   tags:
   - Chrome拡張機能
   - JavaScript
   thumbnail: mrsagasu-thumbnail.jpg
   intro_img: mrsagasu_demo.gif
 - name: Mr.Jimaku
-  added_date: 2020/12/28-11:35
+  release_date: 2020/09/11-00:00
   description: 自分の字幕ファイルをYouTubeで表示するChrome拡張機能
-  install: https://chrome.google.com/webstore/detail/mrjimaku/ffadhemlfiofmghlenfnaemclojffkpd
-  articles:
-  - https://note.com/eetann/n/nb9c7a0602c87
+  here: https://chrome.google.com/webstore/detail/mrjimaku/ffadhemlfiofmghlenfnaemclojffkpd
+  links:
+    - title: github.com/eetann/mrjimaku
+      url: https://github.com/eetann/mrjimaku
+    - title: 使い方
+      url: https://note.com/eetann/n/nb9c7a0602c87
   tags:
   - Chrome拡張機能
   - JavaScript
@@ -23,3 +30,24 @@
   - CSS
   thumbnail: mrjimaku-thumbnail.jpg
   intro_img: mrjimaku_demo.gif
+- name: モザイクアートを作ろう Python版
+  release_date: 2020/11/05-00:00
+  description: 読めばPythonを使ってモザイクアートを作成できるようになる本
+  here: https://zenn.dev/eetann/books/2020-09-25-make-mosaic-art-python
+  tags:
+  - Python
+  - 画像処理
+  - 本
+  thumbnail: make-mosaic-art-python.jpg
+  intro_img: make-mosaic-art-python.jpg
+- name: iPadで使えるPDFの手書きスケジュール帳
+  release_date: 2020/02/19-00:00
+  description: iPadで使えるPDFの手書きスケジュール帳
+  here: https://note.com/api/v2/attachments/download/1396add5c686e88cb4d7cc05d06dbe30
+  links:
+    - title: 解説記事
+      url: https://note.com/hideharu092/n/n49c42ef1fc11
+  tags:
+  - iPad
+  thumbnail: pdf-schedule-for-ipad.png
+  intro_img: pdf-schedule-for-ipad.png

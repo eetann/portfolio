@@ -19,22 +19,34 @@
         v-bind:src="require('@/assets/' + work.intro_img).default"
       />
       <div
-        class="flex flex-wrap my-4 text-xs font-medium tracking-widest text-blue-500 title-font"
+        class="flex flex-wrap my-4 text-sm font-medium tracking-widest text-blue-500 title-font"
       >
-        <h3 v-for="(tag, key) in work.tags" :key="key" class="mx-1">
+        <h3
+          v-for="(tag, key) in work.tags"
+          v-bind:key="'tag' + key"
+          class="mx-1"
+        >
           {{ tag }}
         </h3>
       </div>
       <p class="my-4 text-lg leading-relaxed text-gray-600">
         {{ work.description }}
       </p>
+      <div v-if="work.links">
+        Links
+        <ul class="list-disc list-inside">
+          <li v-for="link in work.links" v-bind:key="link.url">
+            <a v-bind:href="link.url" class="underline">{{ link.title }}</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div class="px-6 py-2 border-t border-gray-300 border-solid h-1/10">
-      <button
-        class="w-full h-full text-xl font-bold text-red-500 uppercase bg-transparent border border-red-500 border-solid rounded outline-none hover:bg-red-500 hover:text-white active:bg-red-600 focus:outline-none"
+    <div class="px-6 py-2 border-t border-gray-300 h-1/10">
+      <a
+        class="block w-full h-full text-center p-2 font-bold text-2xl text-red-500 border border-red-500 rounded hover:bg-red-500 hover:text-white"
+        v-bind:href="work.here"
+        >Here!</a
       >
-        <a v-bind:href="work.install">INSTALL</a>
-      </button>
     </div>
   </div>
   <div class="fixed inset-0 z-40 bg-black opacity-25"></div>
