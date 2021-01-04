@@ -1,4 +1,9 @@
-# portfolio
+# eetann's portfolio
+
+公開先
+https://eetann.github.io/portfolio/
+
+以下はVue.jsのCLIの操作です。
 
 ## Project setup
 ```
