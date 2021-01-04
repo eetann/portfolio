@@ -1,17 +1,17 @@
 <template>
-  <MyHeader></MyHeader>
-  <MyWorks></MyWorks>
+  <TheHeader></TheHeader>
+  <MWorks></MWorks>
 </template>
 
 <script>
-import MyHeader from "./components/MyHeader.vue";
-import MyWorks from "./components/MyWorks.vue";
+import TheHeader from "./components/TheHeader.vue";
+import MWorks from "./components/MWorks.vue";
 
 export default {
   name: "App",
   components: {
-    MyHeader,
-    MyWorks,
+    TheHeader,
+    MWorks,
   },
 };
 </script>

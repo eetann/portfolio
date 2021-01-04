@@ -1,7 +1,7 @@
 <template>
-  <section class="text-gray-600 body-font">
-    <div class="container px-5 py-24 mx-auto">
-      <div class="w-full mb-6 lg:w-1/2 lg:mb-0">
+  <section class="text-gray-600 body-font px-5 lg:px-40">
+    <div class="px-5 py-12 mx-auto">
+      <div class="w-full mb-6">
         <h1
           class="mb-2 text-2xl font-medium text-gray-900 sm:text-3xl title-font"
         >
@@ -11,12 +11,14 @@
       </div>
       <div class="flex flex-wrap">
         <div
-          id="MyWorks"
           v-for="work in works"
-          :key="work.added_date"
-          class="xl:w-1/4 md:w-1/2 p-4"
+          v-bind:key="work.added_date"
+          class="xl:w-1/3 md:w-1/2 p-4"
         >
-          <div class="p-6 bg-gray-100 rounded-lg">
+          <div
+            class="p-6 bg-gray-100 rounded-lg cursor-pointer"
+            v-on:click="openModal(work)"
+          >
             <img
               class="object-cover object-center w-full h-40 mb-6 rounded"
               v-bind:src="require('@/assets/' + work.thumbnail).default"
@@ -29,14 +31,23 @@
             <div
               class="flex flex-wrap mb-4 text-xs font-medium tracking-widest text-blue-500 title-font"
             >
-              <h3 v-for="(tag, key) in work.tags" :key="key" class="mx-1">
+              <h3
+                v-for="(tag, index) in work.tags"
+                v-bind:key="index"
+                class="mx-1"
+              >
                 {{ tag }}
               </h3>
             </div>
-            <p class="text-base leading-relaxed">
+            <p class="text-base leading-relaxed h-12 overflow-hidden">
               {{ work.description }}
             </p>
           </div>
+          <MModal
+            v-if="showModal == work.added_date"
+            v-bind:work="work"
+            v-on:close="closeModal"
+          ></MModal>
         </div>
       </div>
     </div>
@@ -44,10 +55,19 @@
 </template>
 <script>
 import file from "../assets/works.yaml";
+import MModal from "./MModal.vue";
 export default {
-  name: "MyWorks",
+  components: { MModal },
   data() {
-    return { works: [] };
+    return { works: [], showModal: "" };
+  },
+  methods: {
+    openModal(work) {
+      this.showModal = work.added_date;
+    },
+    closeModal() {
+      this.showModal = "";
+    },
   },
   async created() {
     try {
