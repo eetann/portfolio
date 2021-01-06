@@ -1,10 +1,8 @@
 <template>
-  <section class="text-gray-600 body-font px-5 lg:px-40">
+  <section class="px-5 lg:px-40 text-gray-600 body-font">
     <div class="px-5 py-12 mx-auto">
       <div class="w-full mb-6">
-        <h1
-          class="mb-2 text-2xl font-medium text-gray-900 sm:text-3xl title-font"
-        >
+        <h1 class="text-2xl sm:text-3xl mb-2 font-medium text-gray-900">
           Works
         </h1>
         <div class="w-20 h-1 bg-blue-500 rounded"></div>
@@ -23,11 +21,11 @@
               class="object-contain object-center w-full h-40 mb-6 rounded"
               v-bind:src="require('@/assets/' + work.thumbnail).default"
             />
-            <h2 class="text-lg font-medium text-gray-900 title-font">
+            <h2 class="text-lg font-medium text-gray-900">
               {{ work.name }}
             </h2>
             <div
-              class="flex flex-wrap mb-4 text-xs font-medium tracking-widest text-blue-500 title-font"
+              class="flex flex-wrap mb-4 text-xs font-medium tracking-widest text-blue-500"
             >
               <h3
                 v-for="(tag, index) in work.tags"
@@ -37,7 +35,7 @@
                 {{ tag }}
               </h3>
             </div>
-            <p class="text-base leading-relaxed h-12 overflow-hidden">
+            <p class="overflow-hidden text-base h-12 leading-relaxed">
               {{ work.description }}
             </p>
           </div>

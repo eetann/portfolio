@@ -1,8 +1,8 @@
 <template>
-  <div class="font-sans antialiased text-gray-900 px-5 lg:px-40">
+  <div class="px-5 lg:px-40 font-sans antialiased text-gray-900">
     <div class="md:flex md:items-center p-4 bg-white">
       <img
-        class="rounded-full shadow-xl mx-4 w-20 h-20 md:flex-none md:w-40 md:h-40"
+        class="md:flex-none w-20 h-20 md:w-40 md:h-40 mx-4 rounded-full shadow-xl"
         src="../assets/eetann_icon.jpg"
       />
       <div class="md:flex-auto px-4">

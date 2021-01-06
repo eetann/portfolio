@@ -1,26 +1,24 @@
 <template>
   <div
-    class="overflow-hidden fixed inset-0 z-50 border-0 rounded-lg shadow-lg mx-auto my-auto max-w-45rem max-h-5/6 bg-white outline-none focus:outline-none"
+    class="overflow-hidden fixed inset-0 z-50 max-w-45rem max-h-5/6 mx-auto my-auto bg-white border-0 rounded-lg shadow-lg outline-none focus:outline-none"
   >
     <div
-      class="h-1/10 flex justify-between px-6 py-2 border-b border-solid border-gray-300 font-semibold"
+      class="h-1/20 text-right align-bottom px-6 py-1 border-b border-solid border-gray-300"
     >
-      <h3 class="text-3xl my-auto">{{ work.name }}</h3>
       <button
-        class="bg-transparent border-0 text-black outline-none focus:outline-none text-xl"
+        class="text-xl bg-transparent border-0 outline-none focus:outline-none"
         v-on:click="emitCloseModal"
       >
         ✕
       </button>
     </div>
-    <div class="overflow-y-scroll h-4/5 px-6 py-2 flex-auto">
+    <div class="overflow-y-scroll h-17/20 px-6 py-2">
       <img
-        class="mx-auto rounded rounded-3xl max-h-80"
+        class="max-h-80 mx-auto rounded"
         v-bind:src="require('@/assets/' + work.intro_img).default"
       />
-      <div
-        class="flex flex-wrap my-4 text-sm font-medium tracking-widest text-blue-500 title-font"
-      >
+      <h3 class="text-3xl my-2">{{ work.name }}</h3>
+      <div class="flex flex-wrap text-sm my-1 font-medium text-blue-500">
         <h3
           v-for="(tag, key) in work.tags"
           v-bind:key="'tag' + key"
@@ -29,7 +27,7 @@
           {{ tag }}
         </h3>
       </div>
-      <p class="my-4 text-lg leading-relaxed text-gray-600">
+      <p class="text-lg my-2 text-gray-600">
         {{ work.description }}
       </p>
       <div v-if="work.links">
@@ -41,9 +39,9 @@
         </ul>
       </div>
     </div>
-    <div class="px-6 py-2 border-t border-gray-300 h-1/10">
+    <div class="table w-full h-1/10 px-6 py-2 border-t border-gray-300">
       <a
-        class="block w-full h-full text-center p-2 font-bold text-2xl text-red-500 border border-red-500 rounded hover:bg-red-500 hover:text-white"
+        class="table-cell align-middle text-center text-3xl w-full h-full font-bold rounded text-red-500 border border-red-500 hover:bg-red-500 hover:text-white"
         v-bind:href="work.here"
         >Here!</a
       >
