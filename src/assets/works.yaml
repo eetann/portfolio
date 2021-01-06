@@ -1,3 +1,17 @@
+# - name: 
+#   release_date: 2021/01/12-00:00
+#   description: 
+#   here: 
+#   links:
+#     - title: github.com/eetann/
+#       url: https://github.com/eetann/
+#     - title: 
+#       url: 
+#   tags:
+#   - 
+#   - 
+#   thumbnail: 
+#   intro_img: 
 - name: Mr.Sagasu
   release_date: 2020/08/12-00:00
   description: ブックマークのみをアドレスバーで適当に検索できるChrome拡張機能
@@ -51,3 +65,15 @@
   - iPad
   thumbnail: pdf-schedule-for-ipad.png
   intro_img: pdf-schedule-for-ipad.png
+- name: ポートフォリオ
+  release_date: 2021/01/06-00:00
+  description: これです。
+  here: https://eetann.github.io/portfolio/
+  links:
+    - title: github.com/eetann/portfolio
+      url: https://github.com/eetann/portfolio/
+  tags:
+  - Vue
+  - TailwindCSS
+  thumbnail: portfolio.png
+  intro_img: portfolio.png
