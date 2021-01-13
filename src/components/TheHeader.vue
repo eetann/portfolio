@@ -2,7 +2,7 @@
   <div class="px-5 lg:px-40 font-sans antialiased text-gray-900">
     <div class="md:flex md:items-center p-4 bg-white">
       <img
-        class="md:flex-none w-20 h-20 md:w-40 md:h-40 mx-4 rounded-full shadow-xl"
+        class="md:flex-none mx-auto w-20 h-20 md:w-40 md:h-40 rounded-lg shadow-xl"
         src="@/assets/eetann_icon.jpg"
       />
       <div class="md:flex-auto px-4">
