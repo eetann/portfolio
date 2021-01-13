@@ -15,7 +15,7 @@
     <div class="overflow-y-scroll h-17/20 px-6 py-2">
       <img
         class="max-h-80 mx-auto rounded"
-        v-bind:src="require('@/assets/' + work.intro_img).default"
+        v-bind:src="require('@/assets/' + work.intro_img)"
       />
       <h3 class="text-3xl my-2">{{ work.name }}</h3>
       <div class="flex flex-wrap text-sm my-1 font-medium text-blue-500">

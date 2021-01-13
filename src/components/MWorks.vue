@@ -19,7 +19,7 @@
           >
             <img
               class="object-contain object-center w-full h-40 mb-6 rounded"
-              v-bind:src="require('@/assets/' + work.thumbnail).default"
+              v-bind:src="require('@/assets/' + work.thumbnail)"
             />
             <h2 class="text-lg font-medium text-gray-900">
               {{ work.name }}

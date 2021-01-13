@@ -3,7 +3,7 @@
     <div class="md:flex md:items-center p-4 bg-white">
       <img
         class="md:flex-none w-20 h-20 md:w-40 md:h-40 mx-4 rounded-full shadow-xl"
-        src="../assets/eetann_icon.jpg"
+        src="@/assets/eetann_icon.jpg"
       />
       <div class="md:flex-auto px-4">
         <h1 class="text-3xl font-bold">eetann</h1>
