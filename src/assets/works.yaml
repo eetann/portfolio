@@ -72,6 +72,8 @@
   links:
     - title: github.com/eetann/portfolio
       url: https://github.com/eetann/portfolio/
+    - title: 解説記事
+      url: https://zenn.dev/eetann/articles/2021-01-07-maked-portfolio
   tags:
   - Vue
   - TailwindCSS
