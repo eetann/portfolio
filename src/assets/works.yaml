@@ -12,6 +12,24 @@
 #   - 
 #   thumbnail: 
 #   intro_img: 
+- name: Amazing Searcer
+  release_date: 2021/05/31-00:00
+  description: Google検索結果に合わせて便利なリンクを追加するChrome拡張機能
+  here: https://chrome.google.com/webstore/detail/amazing-searcher/poheekmlppakdboaalpmhfpbmnefeokj
+  links:
+    - title: github.com/eetann/amazing-searcher
+      url: https://github.com/eetann/amazing-searcher
+    - title: 使い方
+      url: https://zenn.dev/eetann/articles/2021-05-30-introduction-amazing-searcher
+    - title: Comming Soon 技術的な話
+      url: 
+  tags:
+  - Chrome拡張機能
+  - JavaScript
+  - Vue
+  - Webpack
+  thumbnail: amazing-searcher_thumbnail.png
+  intro_img: amazing-searcher_demo.gif
 - name: Mr.Sagasu
   release_date: 2020/08/12-00:00
   description: ブックマークのみをアドレスバーで適当に検索できるChrome拡張機能
