@@ -21,8 +21,8 @@
       url: https://github.com/eetann/amazing-searcher
     - title: 使い方
       url: https://zenn.dev/eetann/articles/2021-05-30-introduction-amazing-searcher
-    - title: Comming Soon 技術的な話
-      url: 
+    - title: 技術的な話
+      url: https://zenn.dev/eetann/articles/2021-06-01-amazing-searcher-tech
   tags:
   - Chrome拡張機能
   - JavaScript
