@@ -12,6 +12,22 @@
 #   - 
 #   thumbnail: 
 #   intro_img: 
+- name: Notion Tweaks
+  release_date: 2021-11-09-00:00
+  description: Notionをさらに便利にするためのChrome拡張機能
+  here: https://chrome.google.com/webstore/detail/notion-tweaks/fodemmhibeapiocbkojhfpbbiipojcof
+  links:
+    - title: github.com/eetann/notion-tweaks
+      url: https://github.com/eetann/notion-tweaks
+    - title: 使い方
+      url: https://zenn.dev/eetann/articles/2021-11-08-notion-tweaks-intro
+  tags:
+    - Chrome拡張機能
+    - TypeScript
+    - React
+    - Notion
+  thumbnail: notion-tweaks.jpg
+  intro_img: notion-tweaks.jpg
 - name: Amazing Searcher
   release_date: 2021/05/31-00:00
   description: Google検索結果に合わせて便利なリンクを追加するChrome拡張機能
@@ -24,10 +40,10 @@
     - title: 技術的な話
       url: https://zenn.dev/eetann/articles/2021-06-01-amazing-searcher-tech
   tags:
-  - Chrome拡張機能
-  - JavaScript
-  - Vue
-  - Webpack
+    - Chrome拡張機能
+    - JavaScript
+    - Vue
+    - Webpack
   thumbnail: amazing-searcher_thumbnail.png
   intro_img: amazing-searcher_demo.gif
 - name: Mr.Sagasu
@@ -42,8 +58,8 @@
     - title: 使い方(noteでの掲載)
       url: https://note.com/hideharu092/n/nf389a3d66d83
   tags:
-  - Chrome拡張機能
-  - JavaScript
+    - Chrome拡張機能
+    - JavaScript
   thumbnail: mrsagasu-thumbnail.jpg
   intro_img: mrsagasu_demo.gif
 - name: Mr.Jimaku
@@ -56,10 +72,10 @@
     - title: 使い方
       url: https://note.com/hideharu092/n/nb9c7a0602c87
   tags:
-  - Chrome拡張機能
-  - JavaScript
-  - HTML
-  - CSS
+    - Chrome拡張機能
+    - JavaScript
+    - HTML
+    - CSS
   thumbnail: mrjimaku-thumbnail.jpg
   intro_img: mrjimaku_demo.gif
 - name: モザイクアートを作ろう Python版
@@ -67,9 +83,9 @@
   description: 読めばPythonを使ってモザイクアートを作成できるようになる本
   here: https://zenn.dev/eetann/books/2020-09-25-make-mosaic-art-python
   tags:
-  - Python
-  - 画像処理
-  - 本
+    - Python
+    - 画像処理
+    - 本
   thumbnail: make-mosaic-art-python.jpg
   intro_img: make-mosaic-art-python.jpg
 - name: iPadで使えるPDFの手書きスケジュール帳
@@ -80,7 +96,7 @@
     - title: 解説記事
       url: https://note.com/hideharu092/n/n49c42ef1fc11
   tags:
-  - iPad
+    - iPad
   thumbnail: pdf-schedule-for-ipad.png
   intro_img: pdf-schedule-for-ipad.png
 - name: ポートフォリオ
@@ -93,7 +109,7 @@
     - title: 解説記事
       url: https://zenn.dev/eetann/articles/2021-01-07-maked-portfolio
   tags:
-  - Vue
-  - TailwindCSS
+    - Vue
+    - TailwindCSS
   thumbnail: portfolio.png
   intro_img: portfolio.png
